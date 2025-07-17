@@ -1,0 +1,33 @@
+@import './libs/normalize';
+
+$white: rgb(255, 255, 255);
+$acctent-color: rgb(26, 20, 35);
+$card-color: rgb(242, 242, 242);
+
+body {
+  background-color: $white;
+}
+*{
+  font-family: "Martian Mono", monospace;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+// .goblin-one-regular {
+//   font-family: "Goblin One", serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// .martian-mono-<uniquifier> {
+//   font-family: "Martian Mono", monospace;
+//   font-optical-sizing: auto;
+//   font-weight: <weight>;
+//   font-style: normal;
+//   font-variation-settings:
+//     "wdth" 100;
+// }
